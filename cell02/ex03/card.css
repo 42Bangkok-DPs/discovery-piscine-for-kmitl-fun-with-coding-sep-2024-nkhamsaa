@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/459508751_7984316951695496_6172614041476267869_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEjJ4GpiSBpsuNsjfXLvgbGDN_UjpFUZmMM39SOkVRmYzKaD-1-aLQyL33f6X0SWGRB9uuKWAMnZ-8UO6_KZxdZ&_nc_ohc=WN9vKEdg4iwQ7kNvgFCY0cy&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=ACexFc5D32IIIW-Rmtjnn7S&oh=00_AYC1IqwOhaPXoHQ6Wb9iFkKhQdODJDqfdAR5y6qk9WBxIA&oe=66EB0F25);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile {
+    width: 300px;
+    background: transparent;
+    backdrop-filter:blur(8px);
+    border-radius: 50px;
+    border: rgb(214, 212, 212) solid 1px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.profile h1 {
+    margin-bottom: 20px;
+    
+}
+
+.profile table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile table tr td {
+    padding: 10px;
+}
+
+.profile img.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+.login {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: rgb(243, 239, 167);
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 6px;
+    border-radius: 20%;
+
+}
+
+.contact-btn {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: white;
+    color: rgb(8, 0, 12);
+    font-size: larger;
+    font-family: Cambria;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #edf9d1;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(0 0 5px white);
+}
+
